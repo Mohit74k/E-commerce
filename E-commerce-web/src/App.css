@@ -1,0 +1,256 @@
+.card {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border: 3px solid black;
+  margin: 50px 0 0 0;
+}
+.allproduct{
+  color: #fff;
+  border-radius: 30px;
+}
+.cartpage{
+  margin: -70px 0 0 0;
+  
+}
+.navbar{
+  background-color: rgba(18, 183, 175, 0.448);
+}
+.container-cart{
+  background-color: rgb(125, 93, 93);
+  
+}
+/* CheckoutButton.css */
+.checkout-box {
+  background-color: #449241;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 560px;
+  margin: 40px 0 0 0 ;
+  text-align: center;
+  transition: transform 0.3s ease;
+  
+  /* Fade-in effect when the component appears */
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.checkout-box:hover {
+  transform: scale(1.05);
+}
+
+/* Animation for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.checkout-description {
+  font-size: 24px;
+  color: #e6e6e6;
+  margin-top: 12px;
+  font-weight: 400;
+  animation: pulse 3s infinite; /* Pulsing effect every 3 seconds */
+
+
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.summary-details{
+  
+  background-color: #26756f;
+
+}
+.summary-list{
+  color: #fff;
+}
+.summary-card{
+  width: 400px;
+}
+/* PaymentBox.css */
+.payment-box {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  margin: 30px auto;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.payment-box h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.input-group label {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.payment-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-btn:hover {
+  background-color: #0056b3;
+}
+
+.payment-status {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #28a745;
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+  .payment-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .payment-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+#payment-card{
+  width: 600px;
+  position: absolute;
+  top: 70px;
+  left: 650px;
+}
+.ph1{
+  
+  color: #0056b3;
+  text-shadow: 1px 1px black;
+  padding: 15px 0 0 0;
+  
+}
+.payment-img{
+  width: 400px;
+  height: 575px;
+  position: absolute;
+  top: 80px;
+  left: 480px;  
+  border-radius: 20px;
+z-index: -1;
+}
+.backbutton{
+  height: 45px;
+  border-radius: 20px;
+  position: absolute;
+  top: 600px;
+  left: 44%;
+}
+#search-bar{
+  margin: 20px 0 0 0;
+}
+.card-body-cart{
+  background-color: rgb(223, 201, 201);
+  height: auto;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+}
+.card-title{
+  font-weight: 900;
+  color: red;
+  font-size: 28px;
+  
+}
+.card-text{
+  color: #000000;
+  font-weight: 450;
+}
+.fluid-footer{
+  width: 102.35%;
+  
+  margin: 0px 10px 0 -20px ;
+}
+.footermain{
+  background-color: #66c47c;
+  color: #000000;
+  width: 100%;
+}
+.lastline{
+  background: #221b1b;
+  margin: 2px 0 -25px 0;
+  color: #fff;
+}
+.bgcartimg{
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 0.5px solid black;
+  background-position: center;
+  
+}
+.bgcartimg:hover{
+  cursor: pointer;
+}
