@@ -26,7 +26,7 @@ const Cart = () => {
             <div className="col-md-8">
               <div className="card mb-4">
                 <div className="card-header py-3">
-                  <h5 className="mb-0">Cart-Items {cart.length}</h5>
+                  <h5 className="mb-0">Cart-Items👀git {cart.length}</h5>
                 </div>
                 <div className="card-body">
                   {cart.map((data) => (
